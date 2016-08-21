@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7059CE751D5724BB009A2296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7059CE741D5724BB009A2296 /* main.m */; };
+		7059CE781D5724BB009A2296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7059CE771D5724BB009A2296 /* AppDelegate.m */; };
+		7059CE7B1D5724BB009A2296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7059CE7A1D5724BB009A2296 /* ViewController.m */; };
+		7059CE7E1D5724BB009A2296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7059CE7C1D5724BB009A2296 /* Main.storyboard */; };
+		7059CE801D5724BB009A2296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7059CE7F1D5724BB009A2296 /* Assets.xcassets */; };
+		7059CE831D5724BB009A2296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7059CE811D5724BB009A2296 /* LaunchScreen.storyboard */; };
+		7059CE8E1D5724BC009A2296 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7059CE8D1D5724BC009A2296 /* _____Tests.m */; };
+		7059CE991D5724BC009A2296 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7059CE981D5724BC009A2296 /* _____UITests.m */; };
+		7059CEA81D572655009A2296 /* WJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7059CEA71D572655009A2296 /* WJView.m */; };
+		7059CEAB1D5726D9009A2296 /* UIView+VIewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7059CEAA1D5726D9009A2296 /* UIView+VIewFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7059CE8A1D5724BB009A2296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7059CE681D5724BB009A2296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7059CE6F1D5724BB009A2296;
+			remoteInfo = "拖动的按钮";
+		};
+		7059CE951D5724BC009A2296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7059CE681D5724BB009A2296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7059CE6F1D5724BB009A2296;
+			remoteInfo = "拖动的按钮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7059CE701D5724BB009A2296 /* 拖动的按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "拖动的按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7059CE741D5724BB009A2296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7059CE761D5724BB009A2296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7059CE771D5724BB009A2296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7059CE791D5724BB009A2296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7059CE7A1D5724BB009A2296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7059CE7D1D5724BB009A2296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7059CE7F1D5724BB009A2296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7059CE821D5724BB009A2296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7059CE841D5724BB009A2296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7059CE891D5724BB009A2296 /* 拖动的按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "拖动的按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7059CE8D1D5724BC009A2296 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		7059CE8F1D5724BC009A2296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7059CE941D5724BC009A2296 /* 拖动的按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "拖动的按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7059CE981D5724BC009A2296 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		7059CE9A1D5724BC009A2296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7059CEA61D572655009A2296 /* WJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJView.h; sourceTree = "<group>"; };
+		7059CEA71D572655009A2296 /* WJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJView.m; sourceTree = "<group>"; };
+		7059CEA91D5726D9009A2296 /* UIView+VIewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VIewFrame.h"; sourceTree = "<group>"; };
+		7059CEAA1D5726D9009A2296 /* UIView+VIewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VIewFrame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7059CE6D1D5724BB009A2296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7059CE861D5724BB009A2296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7059CE911D5724BC009A2296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7059CE671D5724BB009A2296 = {
+			isa = PBXGroup;
+			children = (
+				7059CE721D5724BB009A2296 /* 拖动的按钮 */,
+				7059CE8C1D5724BB009A2296 /* 拖动的按钮Tests */,
+				7059CE971D5724BC009A2296 /* 拖动的按钮UITests */,
+				7059CE711D5724BB009A2296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7059CE711D5724BB009A2296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7059CE701D5724BB009A2296 /* 拖动的按钮.app */,
+				7059CE891D5724BB009A2296 /* 拖动的按钮Tests.xctest */,
+				7059CE941D5724BC009A2296 /* 拖动的按钮UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7059CE721D5724BB009A2296 /* 拖动的按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				7059CEA91D5726D9009A2296 /* UIView+VIewFrame.h */,
+				7059CEAA1D5726D9009A2296 /* UIView+VIewFrame.m */,
+				7059CE761D5724BB009A2296 /* AppDelegate.h */,
+				7059CE771D5724BB009A2296 /* AppDelegate.m */,
+				7059CE791D5724BB009A2296 /* ViewController.h */,
+				7059CE7A1D5724BB009A2296 /* ViewController.m */,
+				7059CEA61D572655009A2296 /* WJView.h */,
+				7059CEA71D572655009A2296 /* WJView.m */,
+				7059CE7C1D5724BB009A2296 /* Main.storyboard */,
+				7059CE7F1D5724BB009A2296 /* Assets.xcassets */,
+				7059CE811D5724BB009A2296 /* LaunchScreen.storyboard */,
+				7059CE841D5724BB009A2296 /* Info.plist */,
+				7059CE731D5724BB009A2296 /* Supporting Files */,
+			);
+			path = "拖动的按钮";
+			sourceTree = "<group>";
+		};
+		7059CE731D5724BB009A2296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7059CE741D5724BB009A2296 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7059CE8C1D5724BB009A2296 /* 拖动的按钮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7059CE8D1D5724BC009A2296 /* _____Tests.m */,
+				7059CE8F1D5724BC009A2296 /* Info.plist */,
+			);
+			path = "拖动的按钮Tests";
+			sourceTree = "<group>";
+		};
+		7059CE971D5724BC009A2296 /* 拖动的按钮UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7059CE981D5724BC009A2296 /* _____UITests.m */,
+				7059CE9A1D5724BC009A2296 /* Info.plist */,
+			);
+			path = "拖动的按钮UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7059CE6F1D5724BB009A2296 /* 拖动的按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7059CE9D1D5724BC009A2296 /* Build configuration list for PBXNativeTarget "拖动的按钮" */;
+			buildPhases = (
+				7059CE6C1D5724BB009A2296 /* Sources */,
+				7059CE6D1D5724BB009A2296 /* Frameworks */,
+				7059CE6E1D5724BB009A2296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "拖动的按钮";
+			productName = "拖动的按钮";
+			productReference = 7059CE701D5724BB009A2296 /* 拖动的按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7059CE881D5724BB009A2296 /* 拖动的按钮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7059CEA01D5724BC009A2296 /* Build configuration list for PBXNativeTarget "拖动的按钮Tests" */;
+			buildPhases = (
+				7059CE851D5724BB009A2296 /* Sources */,
+				7059CE861D5724BB009A2296 /* Frameworks */,
+				7059CE871D5724BB009A2296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7059CE8B1D5724BB009A2296 /* PBXTargetDependency */,
+			);
+			name = "拖动的按钮Tests";
+			productName = "拖动的按钮Tests";
+			productReference = 7059CE891D5724BB009A2296 /* 拖动的按钮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7059CE931D5724BC009A2296 /* 拖动的按钮UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7059CEA31D5724BC009A2296 /* Build configuration list for PBXNativeTarget "拖动的按钮UITests" */;
+			buildPhases = (
+				7059CE901D5724BC009A2296 /* Sources */,
+				7059CE911D5724BC009A2296 /* Frameworks */,
+				7059CE921D5724BC009A2296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7059CE961D5724BC009A2296 /* PBXTargetDependency */,
+			);
+			name = "拖动的按钮UITests";
+			productName = "拖动的按钮UITests";
+			productReference = 7059CE941D5724BC009A2296 /* 拖动的按钮UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7059CE681D5724BB009A2296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wsj;
+				TargetAttributes = {
+					7059CE6F1D5724BB009A2296 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9G7W8B3K98;
+					};
+					7059CE881D5724BB009A2296 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9G7W8B3K98;
+						TestTargetID = 7059CE6F1D5724BB009A2296;
+					};
+					7059CE931D5724BC009A2296 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9G7W8B3K98;
+						TestTargetID = 7059CE6F1D5724BB009A2296;
+					};
+				};
+			};
+			buildConfigurationList = 7059CE6B1D5724BB009A2296 /* Build configuration list for PBXProject "拖动的按钮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7059CE671D5724BB009A2296;
+			productRefGroup = 7059CE711D5724BB009A2296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7059CE6F1D5724BB009A2296 /* 拖动的按钮 */,
+				7059CE881D5724BB009A2296 /* 拖动的按钮Tests */,
+				7059CE931D5724BC009A2296 /* 拖动的按钮UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7059CE6E1D5724BB009A2296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7059CE831D5724BB009A2296 /* LaunchScreen.storyboard in Resources */,
+				7059CE801D5724BB009A2296 /* Assets.xcassets in Resources */,
+				7059CE7E1D5724BB009A2296 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7059CE871D5724BB009A2296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7059CE921D5724BC009A2296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7059CE6C1D5724BB009A2296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7059CE7B1D5724BB009A2296 /* ViewController.m in Sources */,
+				7059CEAB1D5726D9009A2296 /* UIView+VIewFrame.m in Sources */,
+				7059CE781D5724BB009A2296 /* AppDelegate.m in Sources */,
+				7059CE751D5724BB009A2296 /* main.m in Sources */,
+				7059CEA81D572655009A2296 /* WJView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7059CE851D5724BB009A2296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7059CE8E1D5724BC009A2296 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7059CE901D5724BC009A2296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7059CE991D5724BC009A2296 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7059CE8B1D5724BB009A2296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7059CE6F1D5724BB009A2296 /* 拖动的按钮 */;
+			targetProxy = 7059CE8A1D5724BB009A2296 /* PBXContainerItemProxy */;
+		};
+		7059CE961D5724BC009A2296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7059CE6F1D5724BB009A2296 /* 拖动的按钮 */;
+			targetProxy = 7059CE951D5724BC009A2296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7059CE7C1D5724BB009A2296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7059CE7D1D5724BB009A2296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7059CE811D5724BB009A2296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7059CE821D5724BB009A2296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7059CE9B1D5724BC009A2296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7059CE9C1D5724BC009A2296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7059CE9E1D5724BC009A2296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "拖动的按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7059CE9F1D5724BC009A2296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "拖动的按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7059CEA11D5724BC009A2296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "拖动的按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/拖动的按钮.app/拖动的按钮";
+			};
+			name = Debug;
+		};
+		7059CEA21D5724BC009A2296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "拖动的按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/拖动的按钮.app/拖动的按钮";
+			};
+			name = Release;
+		};
+		7059CEA41D5724BC009A2296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "拖动的按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "拖动的按钮";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7059CEA51D5724BC009A2296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "拖动的按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "拖动的按钮";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7059CE6B1D5724BB009A2296 /* Build configuration list for PBXProject "拖动的按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7059CE9B1D5724BC009A2296 /* Debug */,
+				7059CE9C1D5724BC009A2296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7059CE9D1D5724BC009A2296 /* Build configuration list for PBXNativeTarget "拖动的按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7059CE9E1D5724BC009A2296 /* Debug */,
+				7059CE9F1D5724BC009A2296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7059CEA01D5724BC009A2296 /* Build configuration list for PBXNativeTarget "拖动的按钮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7059CEA11D5724BC009A2296 /* Debug */,
+				7059CEA21D5724BC009A2296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7059CEA31D5724BC009A2296 /* Build configuration list for PBXNativeTarget "拖动的按钮UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7059CEA41D5724BC009A2296 /* Debug */,
+				7059CEA51D5724BC009A2296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7059CE681D5724BB009A2296 /* Project object */;
+}
